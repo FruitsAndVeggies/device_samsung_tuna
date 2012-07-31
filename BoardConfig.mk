@@ -81,3 +81,7 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 BOARD_LIB_DUMPSTATE := libdumpstate.tuna
 
 BOARD_USES_SECURE_SERVICES := true
+
+# Inline kernel building 
+TARGET_KERNEL_CONFIG := cyanogenmod_tuna_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/tuna
